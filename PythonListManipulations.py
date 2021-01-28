@@ -31,3 +31,25 @@ print(thirdList)
 thirdList = "*".join(secondList)
 print(thirdList)
 
+first_int = 10
+second_int = 20
+if first_int > second_int:
+    print("The first int is greater")
+else:
+    print("The second int is greater")
+num = [1, 2, 3, 4, 5]
+for spongebob in num:
+    print(spongebob)
+num = "hello"
+for spongebob in num:
+    print(spongebob)
+for index, spongebob in enumerate(num):
+    print(index, spongebob)
+for spongebob in num:
+    spongebob = 1
+    print(spongebob)
+for i in range(4):
+    print(num[i + 1])
+kel = "hello"
+for i, j in enumerate(kel[1:], start=1):
+    print(i, j)
